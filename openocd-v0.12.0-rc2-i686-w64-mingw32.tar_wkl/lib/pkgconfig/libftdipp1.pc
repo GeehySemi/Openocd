@@ -1,0 +1,11 @@
+prefix=/mingw64
+exec_prefix=/mingw64/bin
+libdir=/mingw64/lib
+includedir=/mingw64/include/libftdi1
+
+Name: libftdipp1
+Description: C++ wrapper for libftdi1
+Requires: libftdi1
+Version: 1.5
+Libs: -L${libdir} -lftdipp1
+Cflags: -I${includedir}
